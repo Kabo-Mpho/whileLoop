@@ -21,6 +21,8 @@ public class WhileLoop {
             JOptionPane.showMessageDialog(null, "Loop number: " + counter);
             counter++;
             //local integer variable
+            
+            //Hi I am Kabo
             int choice = Integer.parseInt(JOptionPane.showInputDialog("Do you want to continue? \n 1= No, 0 = Yes"));
             switch(choice){
                 case'0':
